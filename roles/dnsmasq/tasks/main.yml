@@ -18,9 +18,3 @@
     name: dnsmasq
     state: started
     enabled: true
-
-handlers:
-  - name: restart dnsmasq
-    service:
-      name: dnsmasq
-      state: restarted
