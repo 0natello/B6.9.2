@@ -1,0 +1,4 @@
+listen-address={{ dnsmasq_listen_address }}
+{% for dns_server in dnsmasq_dns_servers %}
+server={{ dns_server }}
+{% endfor %}
